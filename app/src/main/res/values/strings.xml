@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aquifers Around the World</string>
+    <string name="title">Aquifers Around the World</string>
+    <string name="button_play">Play</string>
+    <string name="button_aboutus">About the Team</string>
+    <string name="button_resources">Resources</string>
+    <string name="title_activity_world_map">WorldMap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="links_resources">[links to resources]</string>
+    <string name="description_about_us">We are a group of five students from the <b>Nikola Tesla STEM High School</b> on a mission to educate the world about one of the most <b>valuable</b>, and <b>threatened</b>, water sources on our planet: the <b>aquifer</b>.\n
+        \nInspired by our own reliance on an aquifer and our familiarity with the measures that must be taken to preserve the <b>health and safety</b> of its water, we have set out to <b>edcuate</b> both our community and a more <b>global</b> one about the importance of <b>aquifers</b> and <b>swales</b> and the effects of <b>human behavior</b> on them.\n
+        \nCheck out our website to learn more about our education campaign and ongoing efforts: <a href="url">niamu88.wix.com/aquifereducation</a></string>
+    <string name="title_activity_resources">Resources</string>
+
+</resources>
