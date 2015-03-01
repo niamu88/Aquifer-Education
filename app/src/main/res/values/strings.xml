@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Aquifer Education</string>
+    <string name="app_name">AquiferEducation</string>
     <string name="button_title">Aquifers Around the World</string>
     <string name="button_play">The Problems</string>
     <string name="button_aboutus">About the Team</string>
