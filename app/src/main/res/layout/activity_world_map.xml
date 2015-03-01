@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teslastem.aquifereducation.WorldMap">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:text="@string/button_problem1"
+        android:id="@+id/button4"
+        android:background="#006666"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:text="@string/button_problem2"
+        android:id="@+id/button5"
+        android:background="#009999"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_below="@+id/button4" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:text="@string/button_problem3"
+        android:id="@+id/button6"
+        android:background="#00cccc"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_below="@id/button5"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:layout_marginBottom="-20dp"
+        android:text="@string/button_problem4"
+        android:background="#66e0e0"
+        android:textColor="#ffffff"
+        android:id="@+id/button7"
+        android:textSize="40sp"
+        android:layout_below="@id/button6" />
+
+
+</RelativeLayout>
