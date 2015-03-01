@@ -15,6 +15,7 @@ public class AboutUs extends Activity {
         Typeface font = Typeface.createFromAsset(getAssets(), "fonts/ostrich-regular.ttf");
         description.setTypeface(font);
         title.setTypeface(font);
+        URL.setTypeface(font);
         URL.setOnClickListener(new android.view.View.OnClickListener() {
             @Override
             public void onClick(android.view.View v) {
