@@ -24,19 +24,5 @@ public class InformationActivity extends Activity {
                     .setScaleType(com.daimajia.slider.library.SliderTypes.BaseSliderView.ScaleType.Fit);
             sliderShow.addSlider(textSliderView);
         }
-        android.widget.Button left = (android.widget.Button) findViewById(R.id.leftClick);
-        android.widget.Button right = (android.widget.Button) findViewById(R.id.rightClick);
-        left.setOnClickListener(new android.view.View.OnClickListener() {
-            @Override
-            public void onClick(android.view.View v) {
-                sliderShow.movePrevPosition();
-            }
-        });
-        right.setOnClickListener(new android.view.View.OnClickListener() {
-            @Override
-            public void onClick(android.view.View v) {
-                sliderShow.moveNextPosition();
-            }
-        });
     }
 }
