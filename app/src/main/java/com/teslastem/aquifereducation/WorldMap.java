@@ -3,13 +3,8 @@ package com.teslastem.aquifereducation;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class WorldMap extends Activity {
@@ -17,37 +12,66 @@ public class WorldMap extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_world_map);
-        Button one = (Button) findViewById(R.id.button4);
-        Button two = (Button) findViewById(R.id.button5);
-        Button three = (Button) findViewById(R.id.button6);
-        Button four = (Button) findViewById(R.id.button7);
+        TextView one = (TextView) findViewById(R.id.text4);
+        TextView two = (TextView) findViewById(R.id.text5);
+        TextView three = (TextView) findViewById(R.id.text6);
+        TextView four = (TextView) findViewById(R.id.text7);
         Typeface font = Typeface.createFromAsset(getAssets(), "fonts/ostrich-regular.ttf");
         one.setTypeface(font);
         two.setTypeface(font);
         three.setTypeface(font);
         four.setTypeface(font);
-        one.setOnClickListener(new View.OnClickListener() {
+        com.andexert.library.RippleView oneView = (com.andexert.library.RippleView) findViewById
+                (R.id.button4);
+        com.andexert.library.RippleView twoView = (com.andexert.library.RippleView) findViewById
+                (R.id.button5);
+        com.andexert.library.RippleView threeView = (com.andexert.library.RippleView) findViewById
+                (R.id.button6);
+        com.andexert.library.RippleView fourView = (com.andexert.library.RippleView) findViewById
+                (R.id.button7);
+        final android.os.Handler handler = new android.os.Handler();
+        oneView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(WorldMap.this, MapOne.class));
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        startActivity(new Intent(WorldMap.this, MapOne.class));
+                    }
+                }, 325);
             }
         });
-        two.setOnClickListener(new View.OnClickListener() {
+        twoView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(WorldMap.this, MapTwo.class));
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        startActivity(new Intent(WorldMap.this, MapTwo.class));
+                    }
+                }, 325);
             }
         });
-        three.setOnClickListener(new View.OnClickListener() {
+        threeView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(WorldMap.this, MapThree.class));
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        startActivity(new Intent(WorldMap.this, MapThree.class));
+                    }
+                }, 325);
             }
         });
-        four.setOnClickListener(new View.OnClickListener() {
+        fourView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(WorldMap.this, MapFour.class));
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        startActivity(new Intent(WorldMap.this, MapFour.class));
+                    }
+                }, 325);
             }
         });
     }
