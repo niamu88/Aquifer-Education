@@ -4,9 +4,11 @@
     <string name="button_title">Aquifers Around the World</string>
     <string name="button_play">The Problems</string>
     <string name="button_aboutus">About the Team</string>
+    <string name="button_info">Informational Posters</string>
     <string name="title_activity_world_map">WorldMap</string>
     <string name="title_activity_about_us">AboutUs</string>
     <string name="title_activity_map">Map</string>
+    <string name="title_activity_info">Information Posters</string>
     <string name="button_problem1">Contamination</string>
     <string name="description_contamination">The Problem:\nThere are many different types of contamination that can occur in groundwater throughout the world, both <b>anthropogenic</b> and <b>natural</b>. <b>Arsenic Contamination</b> is a form of natural contamination which effects many countries, including the United States. Soluble forms of Arsenic are found at deep depths and <b>when certain wells probe too deep</b>, such as in the Ganges, arsenous water can be exposed to large numbers of people.\n
         \nThe Solution:\nThat said there are <b>simple, inexpensive methods</b> used in the Indian Subcontinent and other places that are susceptible. One example is the <b>Sono arsenic filter</b> that use a series of pitchers acting as filters that people can use to <b>decontaminate</b> the water. A more expensive, advanced, and standardized method is the use of <b>“under the sink” units</b> that remove arsenic from drinking water.\n

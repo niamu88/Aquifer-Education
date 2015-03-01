@@ -4,64 +4,80 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="120dp"
+        android:layout_height="83.5dp"
         android:background="#006666"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
         <TextView
             android:text="@string/button_title"
             android:textColor="#ffffff"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:textSize="60sp"
+            android:textSize="45sp"
             android:gravity="center"
             android:id="@+id/button_title"
             android:layout_centerInParent="true" />
     </RelativeLayout>
-
     <com.andexert.library.RippleView
         android:layout_width="fill_parent"
-        android:layout_height="120dp"
+        android:layout_height="83.5dp"
         android:background="#009999"
         android:id="@+id/playView"
-        android:layout_centerVertical="true"
+        ripple:rv_rippleDuration="160"
+        android:layout_below="@+id/relativeLayout"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        ripple:rv_rippleDuration="160" >
+        android:layout_alignParentStart="true">
         <TextView
             android:textColor="#ffffff"
             android:text="@string/button_play"
             android:id="@+id/button"
-            android:textSize="60sp"
+            android:textSize="45sp"
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true" />
     </com.andexert.library.RippleView>
-
     <com.andexert.library.RippleView
         android:layout_width="fill_parent"
-        android:layout_height="120dp"
+        android:layout_height="83.5dp"
         android:background="#00cccc"
-        android:layout_marginBottom="-5dp"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/infoView"
+        ripple:rv_rippleDuration="160"
+        android:layout_below="@+id/playView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:textColor="#ffffff"
+            android:text="@string/button_info"
+            android:textSize="45sp"
+            android:id="@+id/button3"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </com.andexert.library.RippleView>
+    <com.andexert.library.RippleView
+        android:layout_width="fill_parent"
+        android:layout_height="83.5dp"
+        android:background="#00ffff"
         android:id="@+id/aboutView"
-        ripple:rv_rippleDuration="160" >
+        ripple:rv_rippleDuration="160"
+        ripple:rv_alpha="175"
+        android:layout_below="@+id/infoView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
         <TextView
             android:textColor="#ffffff"
             android:text="@string/button_aboutus"
-            android:textSize="60sp"
+            android:textSize="45sp"
             android:id="@+id/button2"
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true" />
     </com.andexert.library.RippleView>
-
 </RelativeLayout>
