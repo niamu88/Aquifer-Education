@@ -29,6 +29,7 @@ public class WorldMap extends Activity {
                 (R.id.button6);
         com.andexert.library.RippleView fourView = (com.andexert.library.RippleView) findViewById
                 (R.id.button7);
+        final Intent startMap = new android.content.Intent(WorldMap.this, MapActivity.class);
         final android.os.Handler handler = new android.os.Handler();
         oneView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +37,8 @@ public class WorldMap extends Activity {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        startActivity(new Intent(WorldMap.this, MapOne.class));
+                        startMap.putExtra("id", 1);
+                        startActivity(startMap);
                     }
                 }, 325);
             }
@@ -47,7 +49,8 @@ public class WorldMap extends Activity {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        startActivity(new Intent(WorldMap.this, MapTwo.class));
+                        startMap.putExtra("id", 2);
+                        startActivity(startMap);
                     }
                 }, 325);
             }
@@ -58,7 +61,8 @@ public class WorldMap extends Activity {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        startActivity(new Intent(WorldMap.this, MapThree.class));
+                        startMap.putExtra("id", 3);
+                        startActivity(startMap);
                     }
                 }, 325);
             }
@@ -69,7 +73,8 @@ public class WorldMap extends Activity {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        startActivity(new Intent(WorldMap.this, MapFour.class));
+                        startMap.putExtra("id", 4);
+                        startActivity(startMap);
                     }
                 }, 325);
             }

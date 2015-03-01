@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.teslastem.aquifereducation" >
+          package="com.teslastem.aquifereducation"
+          android:versionCode="1"
+          android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
@@ -8,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.teslastem.aquifereducation.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape" >
             <intent-filter>
@@ -18,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".WorldMap"
+            android:name="com.teslastem.aquifereducation.WorldMap"
             android:label="@string/app_name"
             android:screenOrientation="landscape" >
             <intent-filter>
@@ -28,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AboutUs"
+            android:name="com.teslastem.aquifereducation.AboutUs"
             android:label="@string/title_activity_about_us"
             android:screenOrientation="landscape" >
             <intent-filter>
@@ -38,42 +44,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MapOne"
-            android:label="@string/title_activity_map_one"
+            android:name="com.teslastem.aquifereducation.MapActivity"
+            android:label="@string/title_activity_map"
             android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".MapTwo"
-            android:label="@string/title_activity_map_two"
-            android:screenOrientation="landscape" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".MapThree"
-            android:label="@string/title_activity_map_three"
-            android:screenOrientation="landscape" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".MapFour"
-            android:label="@string/title_activity_map_four"
-            android:screenOrientation="landscape" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Aquifers Around the World</string>
+    <string name="app_name">Aquifer Education</string>
     <string name="button_title">Aquifers Around the World</string>
     <string name="button_play">The Problems</string>
     <string name="button_aboutus">About the Team</string>
-    <string name="button_resources">Resources</string>
     <string name="title_activity_world_map">WorldMap</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
     <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_map">Map</string>
     <string name="button_problem1">Contamination</string>
     <string name="description_contamination">The Problem:\nThere are many different types of contamination that can occur in groundwater throughout the world, both <b>anthropogenic</b> and <b>natural</b>. <b>Arsenic Contamination</b> is a form of natural contamination which effects many countries, including the United States. Soluble forms of Arsenic are found at deep depths and <b>when certain wells probe too deep</b>, such as in the Ganges, arsenous water can be exposed to large numbers of people.\n
         \nThe Solution:\nThat said there are <b>simple, inexpensive methods</b> used in the Indian Subcontinent and other places that are susceptible. One example is the <b>Sono arsenic filter</b> that use a series of pitchers acting as filters that people can use to <b>decontaminate</b> the water. A more expensive, advanced, and standardized method is the use of <b>“under the sink” units</b> that remove arsenic from drinking water.\n
@@ -24,15 +21,8 @@
     <string name="button_problem4">Hydraulic Fracturing</string>
     <string name="description_fracking">The Problem:\nFracking, short for <b>Hydraulic Fracturing</b>, is the process in which rock is fractured using hydraulically pressurized liquids. This fracturing and pressure causes <b>shale gas</b> and various <b>other hydrocarbons</b> to flow back up to be <b>harnessed for electrical energy</b>. That said it causes many environmental problems and is a <b>serious threat</b> to <b>groundwater</b> all across the world. Many of these wellbores penetrate straight through the ground to great depths <b>crossing many shallow and deep aquifers</b>. The hydraulic fracturing process causes <b>seismic activity</b> that can cause significant amounts of the natural gases being extracted to <b>mix into the aquifers</b>. This is one of the largest <b>anthropogenic</b> causes of contamination in aquifers and renders large aquifers <b>unusable</b>. One common place for this issue is in the American Midwest where water has been so contaminated, <b>it can be lit on fire</b> for brief periods of time. It is this same water that is used for <b>irrigation</b> as well affecting countless <b>crops</b> shipped all around the world.\n
         \nThe Solution:\nTo stop this we must <b>lobby for change in legislation</b> to reduce fracking and instill more strict action against fracking. Furthermore, the faster we move towards <b>renewable energy</b>, the faster we can rid harmful methods of deriving energy such as fracking. </string>
-    <string name="links_resources">[links to resources]</string>
     <string name="description_about_us">We are a group of five students from the <b>Nikola Tesla STEM High School</b> on a mission to educate the world about one of the most <b>valuable</b>, and <b>threatened</b>, water sources on our planet: the <b>aquifer</b>.\n
         \nInspired by our own reliance on an aquifer and our familiarity with the measures that must be taken to preserve the <b>health and safety</b> of its water, we have set out to <b>edcuate</b> both our community and a more <b>global</b> one about the importance of <b>aquifers</b> and <b>swales</b> and the effects of <b>human behavior</b> on them.\n
-        \nCheck out our website to learn more about our education campaign and ongoing efforts:\n
-        <a href="url">aquifereducation.wix.com/teslastem</a></string>
-    <string name="title_activity_resources">Resources</string>
-    <string name="title_activity_map_one">MapOne</string>
-    <string name="title_activity_map_two">MapTwo</string>
-    <string name="title_activity_map_three">MapThree</string>
-    <string name="title_activity_map_four">MapFour</string>
-
+        \nCheck out our website to learn more about our education campaign and ongoing efforts:</string>
+    <string name="url"><a href="url">aquifereducation.wix.com/teslastem</a></string>
 </resources>
